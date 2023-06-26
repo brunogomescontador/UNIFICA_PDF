@@ -20,6 +20,11 @@ Este é o meu projeto com interface gráfica que visa automatizar a união de p�
 
 1. Clone o repositório para a sua máquina local:
 
+   ```
+   https://github.com/Brunogomesleal/UNIFICA_PDF.git
+
+   ```
+
 
 2. Acesse a pasta raiz do projeto:
 
