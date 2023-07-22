@@ -1,6 +1,6 @@
 # Meu Projeto com Interface Gráfica
 
-Este é o meu projeto com interface gráfica que visa automatizar a união de páginas correspondentes em arquivos PDFs. O aplicativo permite a seleção de dois arquivos PDFs: um contendo informações bancárias ou seja, comprovantes de pagamentos e outro contendo recibos de pagamento dos seus empregados. Em seguida, ele busca as páginas correspondentes no arquivo bancário, com base nos nomes das pessoas, e gera um novo arquivo PDF separado com essas páginas.O sistema permite também o envio de um arquivo CSV contendo o nome dos correspondentes empregados para geração de arquivo. 
+Este é o meu projeto com interface gráfica que visa automatizar a união de páginas correspondentes em arquivos PDFs. O aplicativo permite a seleção de TRÊS arquivos PDFs: dois contendo informações bancárias ou seja, comprovantes de pagamentos e outro contendo recibos de pagamento dos seus empregados. As comrrespondências são baseadas no arquivo CSV que você irá subir no formato simples apenas de nomes. Delimitado por ;.  Em seguida, ele busca as páginas correspondentes no arquivo bancário, com base nos nomes das pessoas, e gera um novo arquivo PDF separado com essas páginas.. 
 
 ## Funcionalidades
 
@@ -8,7 +8,9 @@ Este é o meu projeto com interface gráfica que visa automatizar a união de p�
 - Processamento dos arquivos PDFs, buscando páginas correspondentes com base nos nomes.
 - Geração de um novo arquivo PDF separado contendo as páginas correspondentes. 
 - Interface gráfica amigável e intuitiva.
-- Une apenas 1 comprovante de pagamento para cada Recibo. 
+- Une apenas 1 comprovante de pagamento para cada Recibo.
+- Gera um arquivo TXT com nomes não encontrados.
+- Campo onde é possível complementar o nome de saída do arquivo. Exemplo coloca competência. 
 
 ## Requisitos do Sistema
 
